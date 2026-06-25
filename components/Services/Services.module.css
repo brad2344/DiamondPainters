@@ -1,0 +1,110 @@
+.section {
+  padding: var(--section-padding);
+  background: var(--ink);
+}
+
+.inner {
+  max-width: var(--max-w);
+  margin-inline: auto;
+}
+
+.header {
+  max-width: 600px;
+  margin-bottom: 3.5rem;
+}
+
+.intro {
+  font-size: 0.95rem;
+  color: var(--dust);
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+/* ── List ─────────────────────────── */
+.list {
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 64px 1fr 56px;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.75rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  cursor: none;
+  transition: background var(--t-mid);
+}
+
+.row:hover {
+  background: rgba(184, 146, 42, 0.04);
+}
+
+.roman {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--gilt);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.rowContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.serviceName {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--white);
+  line-height: 1.2;
+  transition: color var(--t-mid);
+}
+
+.row:hover .serviceName {
+  color: var(--gilt2);
+}
+
+.serviceDesc {
+  font-size: 0.88rem;
+  color: var(--dust);
+  font-weight: 300;
+  line-height: 1.65;
+  max-width: 560px;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  color: var(--dust2);
+  flex-shrink: 0;
+  transition: color var(--t-mid), transform var(--t-mid);
+}
+
+.row:hover .arrow {
+  color: var(--gilt2);
+  transform: translateX(4px);
+}
+
+@media (max-width: 600px) {
+  .row {
+    grid-template-columns: 44px 1fr 44px;
+    gap: 1rem;
+  }
+
+  .roman {
+    font-size: 1.2rem;
+  }
+
+  .serviceName {
+    font-size: 1.1rem;
+  }
+
+  .section {
+    padding: var(--section-padding-sm);
+  }
+}

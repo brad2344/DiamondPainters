@@ -1,0 +1,179 @@
+.hero {
+  min-height: 100svh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ── Left Panel ─────────────────────────── */
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rem 4rem 4rem 6rem;
+  background: var(--ink);
+  position: relative;
+  z-index: 2;
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 5vw, 5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--white);
+  margin-bottom: 1.75rem;
+}
+
+.italic {
+  font-style: italic;
+  color: var(--gilt2);
+}
+
+.sub {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--dust);
+  line-height: 1.75;
+  max-width: 400px;
+  margin-bottom: 2.5rem;
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: auto;
+}
+
+.discoverHint {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 4rem;
+}
+
+.discoverLine {
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: var(--gilt);
+  animation: grow 2s ease-in-out infinite alternate;
+}
+
+@keyframes grow {
+  from { width: 28px; }
+  to { width: 52px; }
+}
+
+.discoverText {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dust2);
+}
+
+/* ── Right Panel ─────────────────────────── */
+.right {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageWrap {
+  position: absolute;
+  inset: 0;
+}
+
+.photo {
+  object-fit: cover;
+  object-position: center;
+}
+
+.gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    var(--ink) 0%,
+    rgba(9, 9, 10, 0.4) 40%,
+    rgba(9, 9, 10, 0) 100%
+  );
+}
+
+/* ── Badge ─────────────────────────────── */
+.badge {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+  width: 120px;
+  height: 120px;
+  animation: spin 20s linear infinite;
+  z-index: 3;
+}
+
+.badgeSvg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.badgeText {
+  font-family: var(--font-body);
+  font-size: 11.5px;
+  fill: var(--gilt2);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.badgeDot {
+  fill: var(--gilt2);
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ── Responsive ─────────────────────────── */
+@media (max-width: 960px) {
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 55vw;
+  }
+
+  .left {
+    padding: 7rem 1.5rem 2.5rem;
+    order: 1;
+  }
+
+  .right {
+    order: 2;
+    min-height: 55vw;
+  }
+
+  .gradient {
+    background: linear-gradient(
+      to bottom,
+      rgba(9, 9, 10, 0) 40%,
+      var(--ink) 100%
+    );
+  }
+
+  .badge {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 90px;
+    height: 90px;
+  }
+
+  .badgeText {
+    font-size: 9px;
+  }
+
+  .discoverHint {
+    display: none;
+  }
+}

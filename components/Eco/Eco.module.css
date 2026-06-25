@@ -1,0 +1,102 @@
+.section {
+  padding: var(--section-padding);
+  background: var(--ink2);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.inner {
+  max-width: var(--max-w);
+  margin-inline: auto;
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+/* ── Emblem ─────────────────────────── */
+.emblem {
+  flex-shrink: 0;
+}
+
+.emblemOuter {
+  width: 110px;
+  height: 110px;
+  border: 1.5px solid rgba(184, 146, 42, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.emblemOuter::before {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border: 1px solid rgba(184, 146, 42, 0.2);
+}
+
+.emblemInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── Copy ─────────────────────────── */
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 680px;
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--white);
+}
+
+.em {
+  font-style: italic;
+  color: var(--gilt2);
+}
+
+.body {
+  font-size: 0.93rem;
+  color: var(--dust);
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+/* ── Tags ─────────────────────────── */
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tag {
+  padding: 0.45rem 1rem;
+  border: 1px solid rgba(184, 146, 42, 0.35);
+  border-radius: 100px;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gilt2);
+  background: rgba(184, 146, 42, 0.05);
+}
+
+@media (max-width: 700px) {
+  .inner {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .section {
+    padding: var(--section-padding-sm);
+  }
+}
