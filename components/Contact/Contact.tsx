@@ -26,7 +26,7 @@ export default function Contact() {
   };
 
   return (
-    <section className={styles.section} id="contact" aria-label="Contact Diamond Painters">
+    <section className={styles.section} id="contact" aria-label="Contact Kami Decorators">
       <div className={styles.grid}>
         {/* Left */}
         <div className={styles.info}>
@@ -54,11 +54,11 @@ export default function Contact() {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@diamondpainters.co.uk" className={styles.contactLink} aria-label="Email address">
+                <a href="mailto:info@kamidecorators.co.uk" className={styles.contactLink} aria-label="Email address">
                   <span className={styles.arrow} aria-hidden="true">→</span>
                   <span>
                     <strong className={styles.linkLabel}>Email</strong>
-                    <span className={styles.linkValue}>info@diamondpainters.co.uk</span>
+                    <span className={styles.linkValue}>info@kamidecorators.co.uk</span>
                   </span>
                 </a>
               </li>

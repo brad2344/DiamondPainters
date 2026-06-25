@@ -18,22 +18,22 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Diamond Painters Ltd — Luxury Painting & Decorating, Central London",
+  title: "Kami Decorators Ltd — Luxury Painting & Decorating, Central London",
   description:
     "Premium residential and commercial painting and decorating services across Central London. Specialists in sash window restoration, Venetian plastering, and heritage interiors. Serving SW1, SW3, W1, NW3 and surrounding areas.",
   keywords:
-    "painters decorators London, luxury painting London, sash window restoration, Venetian plaster London, interior decorating SW1, Diamond Painters",
+    "painters decorators London, luxury painting London, sash window restoration, Venetian plaster London, interior decorating SW1, Kami Decorators",
   openGraph: {
-    title: "Diamond Painters Ltd — Luxury Painting & Decorating, Central London",
+    title: "Kami Decorators Ltd — Luxury Painting & Decorating, Central London",
     description:
       "Premium residential and commercial painting and decorating services across Central London. Specialists in sash window restoration and Venetian plastering.",
     type: "website",
     locale: "en_GB",
-    siteName: "Diamond Painters Ltd",
+    siteName: "Kami Decorators Ltd",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Diamond Painters Ltd",
+    title: "Kami Decorators Ltd",
     description: "Premium painting & decorating across Central London.",
   },
 };

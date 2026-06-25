@@ -16,7 +16,7 @@ export default function Hero() {
         </h1>
 
         <p className={styles.sub}>
-          Diamond Painters delivers museum-grade finishing for London&apos;s most
+          Kami Decorators delivers museum-grade finishing for London&apos;s most
           discerning homes and businesses. From Belgravia drawing rooms to
           Chelsea townhouses — every surface, perfected.
         </p>
@@ -50,7 +50,7 @@ export default function Hero() {
           <div className={styles.gradient} aria-hidden="true" />
         </div>
 
-        <div className={styles.badge} aria-label="Painters, Decorators, London">
+        <div className={styles.badge} aria-label="Decorators, London">
           <svg viewBox="0 0 120 120" className={styles.badgeSvg} aria-hidden="true">
             <defs>
               <path
@@ -60,7 +60,7 @@ export default function Hero() {
             </defs>
             <text className={styles.badgeText}>
               <textPath href="#circlePath" startOffset="0%">
-                PAINTERS · DECORATORS · LONDON ·
+                DECORATORS · LONDON · KAMI ·
               </textPath>
             </text>
             <circle cx="60" cy="60" r="6" className={styles.badgeDot} />
