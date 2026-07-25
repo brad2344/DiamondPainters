@@ -18,15 +18,15 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Kami Decorators Ltd — Luxury Painting & Decorating, Central London",
+  title: "Kami Decorators Ltd — Luxury Painting & Decorating, North London",
   description:
-    "Premium residential and commercial painting and decorating services across Central London. Specialists in sash window restoration, Venetian plastering, and heritage interiors. Serving SW1, SW3, W1, NW3 and surrounding areas.",
+    "Premium residential and commercial painting and decorating services across North London. Specialists in sash window restoration, Venetian plastering, and heritage interiors. Serving N1, N4, N6, N8, NW3, NW6, NW8 and surrounding areas.",
   keywords:
-    "painters decorators London, luxury painting London, sash window restoration, Venetian plaster London, interior decorating SW1, Kami Decorators",
+    "painters decorators North London, luxury painting London, sash window restoration, Venetian plaster London, interior decorating North London, Kami Decorators",
   openGraph: {
-    title: "Kami Decorators Ltd — Luxury Painting & Decorating, Central London",
+    title: "Kami Decorators Ltd — Luxury Painting & Decorating, North London",
     description:
-      "Premium residential and commercial painting and decorating services across Central London. Specialists in sash window restoration and Venetian plastering.",
+      "Premium residential and commercial painting and decorating services across North London. Specialists in sash window restoration and Venetian plastering.",
     type: "website",
     locale: "en_GB",
     siteName: "Kami Decorators Ltd",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Kami Decorators Ltd",
-    description: "Premium painting & decorating across Central London.",
+    description: "Premium painting & decorating across North London.",
   },
 };
 

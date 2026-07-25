@@ -15,8 +15,8 @@ export default function Footer() {
           <span className={styles.reg}>Registered in England &amp; Wales.</span>
         </p>
 
-        <a href="mailto:info@kamidecorators.co.uk" className={styles.email}>
-          info@kamidecorators.co.uk
+        <a href="mailto:kamidecorators@gmail.com" className={styles.email}>
+          kamidecorators@gmail.com
         </a>
       </div>
     </footer>

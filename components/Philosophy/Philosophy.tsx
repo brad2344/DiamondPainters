@@ -8,7 +8,7 @@ const STATS = [
   { value: "£5M", label: "Liability Cover" },
 ];
 
-const POSTCODES = ["SW1", "SW3", "SW6", "SW7", "SW10", "W1", "NW3", "NW6", "NW8"];
+const POSTCODES = ["N1", "N4", "N5", "N6", "N8", "N10", "NW3", "NW5", "NW6", "NW8"];
 
 export default function Philosophy() {
   return (
@@ -51,7 +51,7 @@ export default function Philosophy() {
             <p className={styles.body}>
               Founded over two decades ago by master decorators who believed that
               painting was an art form — not a trade. Kami Decorators has grown
-              into one of Central London&apos;s most trusted names, serving
+              into one of North London&apos;s most trusted names, serving
               private residences, luxury developers, and heritage properties.
             </p>
             <p className={styles.body}>

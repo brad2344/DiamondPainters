@@ -45,20 +45,20 @@ export default function Contact() {
           <ScrollReveal delay={1}>
             <ul className={styles.contactLinks}>
               <li>
-                <a href="tel:07921519453" className={styles.contactLink} aria-label="Phone number">
+                <a href="tel:+447921519596" className={styles.contactLink} aria-label="Phone number">
                   <span className={styles.arrow} aria-hidden="true">→</span>
                   <span>
                     <strong className={styles.linkLabel}>Telephone</strong>
-                    <span className={styles.linkValue}>07921 519453</span>
+                    <span className={styles.linkValue}>+44 7921 519596</span>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="mailto:info@kamidecorators.co.uk" className={styles.contactLink} aria-label="Email address">
+                <a href="mailto:kamidecorators@gmail.com" className={styles.contactLink} aria-label="Email address">
                   <span className={styles.arrow} aria-hidden="true">→</span>
                   <span>
                     <strong className={styles.linkLabel}>Email</strong>
-                    <span className={styles.linkValue}>info@kamidecorators.co.uk</span>
+                    <span className={styles.linkValue}>kamidecorators@gmail.com</span>
                   </span>
                 </a>
               </li>

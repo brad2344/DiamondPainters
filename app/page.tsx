@@ -5,6 +5,7 @@ import Strip from "@/components/Strip/Strip";
 import Philosophy from "@/components/Philosophy/Philosophy";
 import Services from "@/components/Services/Services";
 import Sash from "@/components/Sash/Sash";
+import Gallery from "@/components/Gallery/Gallery";
 import Eco from "@/components/Eco/Eco";
 import ReviewBar from "@/components/ReviewBar/ReviewBar";
 import Contact from "@/components/Contact/Contact";
@@ -21,6 +22,7 @@ export default function Home() {
         <Philosophy />
         <Services />
         <Sash />
+        <Gallery />
         <Eco />
         <ReviewBar />
         <Contact />

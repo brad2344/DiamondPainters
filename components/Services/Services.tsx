@@ -12,7 +12,7 @@ const SERVICES = [
     roman: "II",
     name: "Commercial Painting",
     description:
-      "Offices, retail spaces, and hospitality venues across Central London. We work around your schedule to minimise disruption.",
+      "Offices, retail spaces, and hospitality venues across North London. We work around your schedule to minimise disruption.",
   },
   {
     roman: "III",

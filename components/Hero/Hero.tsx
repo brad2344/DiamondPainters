@@ -6,7 +6,7 @@ export default function Hero() {
     <section className={styles.hero} aria-label="Hero">
       <div className={styles.left}>
         <span className="eyebrow" style={{ marginBottom: "1.5rem" }}>
-          Central London&apos;s Premier Decorators
+          North London&apos;s Premier Decorators
         </span>
 
         <h1 className={styles.headline}>
