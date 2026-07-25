@@ -25,7 +25,6 @@ const ALL_PHOTOS = [
   { id: "8e6b33b2-3691-4dad-b575-981b372f79fc", ext: "jpeg", cat: "Interior" },
   { id: "c6c42bad-8a92-49fd-81a8-5d8aa28ac39a", ext: "jpeg", cat: "Interior" },
   { id: "fd144c44-9bdd-46e3-a92b-2c6c31149963", ext: "jpeg", cat: "Exterior" },
-  { id: "16353fda-5043-45fb-8db9-188a8ca02ffd", ext: "jpeg", cat: "Interior" },
   { id: "10afde99-4f01-484d-adcb-fe98cf60d031", ext: "jpeg", cat: "Woodwork" },
   { id: "4ebb2667-9313-4ea2-94bc-eb5ff752774b", ext: "jpeg", cat: "Interior" },
   { id: "7ee60576-db2e-4bf4-bb30-886438352154", ext: "jpeg", cat: "Interior" },
@@ -40,7 +39,6 @@ const ALL_PHOTOS = [
   { id: "e9e0e5d3-2849-4dc6-adad-3c4a984995a9", ext: "jpeg", cat: "Interior" },
   { id: "9132c9fb-0f4e-4429-bb75-cb032fefa581", ext: "jpeg", cat: "Interior" },
   { id: "b6aaf9f7-d75f-4a91-ae53-eea1b356cb25", ext: "jpeg", cat: "Sash Windows" },
-  { id: "2ec78409-b0a9-432b-b6c9-24ca16e5f6e7", ext: "jpeg", cat: "Interior" },
   { id: "fdb1bfae-1ac9-46ce-a535-be2924f20cc2", ext: "jpeg", cat: "Woodwork" },
   { id: "e1488e42-cce8-47ae-93d1-428702740c05", ext: "jpeg", cat: "Interior" },
   { id: "c410412b-43d1-4879-9a72-b3b752b4874e", ext: "jpeg", cat: "Exterior" },
@@ -55,7 +53,6 @@ const ALL_PHOTOS = [
   { id: "4d7dfb50-f5c2-4024-bbd4-b4dad5976eac", ext: "jpeg", cat: "Interior" },
   { id: "c016d960-8c54-4427-bd97-2abd085165e6", ext: "jpeg", cat: "Exterior" },
   { id: "5f0df231-2a5b-40b0-9968-69217fbd9e5d", ext: "jpeg", cat: "Interior" },
-  { id: "9195d705-f08d-4551-98d2-18a945a795a1", ext: "jpeg", cat: "Interior" },
   { id: "e6a8f8c4-8deb-4593-b139-639d721532f6", ext: "jpg",  cat: "Exterior" },
 ];
 
