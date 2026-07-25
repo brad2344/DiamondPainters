@@ -53,6 +53,7 @@ const ALL_PHOTOS = [
   { id: "4d7dfb50-f5c2-4024-bbd4-b4dad5976eac", ext: "jpeg", cat: "Interior" },
   { id: "c016d960-8c54-4427-bd97-2abd085165e6", ext: "jpeg", cat: "Exterior" },
   { id: "5f0df231-2a5b-40b0-9968-69217fbd9e5d", ext: "jpeg", cat: "Interior" },
+  { id: "9195d705-f08d-4551-98d2-18a945a795a1", ext: "jpeg", cat: "Interior" },
   { id: "e6a8f8c4-8deb-4593-b139-639d721532f6", ext: "jpg",  cat: "Exterior" },
 ];
 
