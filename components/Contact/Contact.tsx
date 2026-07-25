@@ -64,7 +64,7 @@ export default function Contact() {
               </li>
               <li>
                 <a
-                  href="https://g.co/kgs/Lvjuo7P"
+                  href="https://share.google/pPGfHxye8xe2IoZ7q"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.contactLink}
