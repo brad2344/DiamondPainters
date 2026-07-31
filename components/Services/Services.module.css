@@ -77,18 +77,6 @@
   max-width: 560px;
 }
 
-.arrow {
-  width: 40px;
-  height: 40px;
-  color: var(--dust2);
-  flex-shrink: 0;
-  transition: color var(--t-mid), transform var(--t-mid);
-}
-
-.row:hover .arrow {
-  color: var(--gilt2);
-  transform: translateX(4px);
-}
 
 @media (max-width: 600px) {
   .row {

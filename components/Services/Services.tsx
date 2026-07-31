@@ -67,12 +67,6 @@ export default function Services() {
                     dangerouslySetInnerHTML={{ __html: s.description }}
                   />
                 </div>
-                <span className={styles.arrow} aria-hidden="true">
-                  <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="20" cy="20" r="19" stroke="currentColor" strokeWidth="1.2" />
-                    <path d="M14 20h12M20 14l6 6-6 6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </span>
               </div>
             </ScrollReveal>
           ))}
