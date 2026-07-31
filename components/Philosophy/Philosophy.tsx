@@ -17,8 +17,8 @@ export default function Philosophy() {
         <ScrollReveal className={styles.imageCol}>
           <div className={styles.imageFrame}>
             <Image
-              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
-              alt="Professional painter rolling paint onto a wall"
+              src="/about-painter.avif"
+              alt="Professional painter on scaffolding painting a ceiling inside a home"
               fill
               sizes="(max-width: 960px) 100vw, 45vw"
               className={styles.photo}
