@@ -48,7 +48,7 @@ export default function Sash() {
           <ScrollReveal>
             <span className="eyebrow">Specialists</span>
             <h2 className="section-headline">
-              Sash Window <em>Restoration</em>
+              Window <em>Restoration</em>
             </h2>
             <p className={styles.body}>
               London&apos;s Victorian and Georgian sash windows are architectural
