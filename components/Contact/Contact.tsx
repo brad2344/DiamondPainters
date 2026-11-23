@@ -62,21 +62,6 @@ export default function Contact() {
                   </span>
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://share.google/pPGfHxye8xe2IoZ7q"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.contactLink}
-                  aria-label="Find us on Google Maps"
-                >
-                  <span className={styles.arrow} aria-hidden="true">→</span>
-                  <span>
-                    <strong className={styles.linkLabel}>Google</strong>
-                    <span className={styles.linkValue}>Find us on Google Maps</span>
-                  </span>
-                </a>
-              </li>
             </ul>
           </ScrollReveal>
         </div>
